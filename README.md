@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hello, I'm Caden Parker
+C/C++ engineer focused on real-time graphics, performance, and systems-level work.
 
-<!--
-**Ne0nWinds/Ne0nWinds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## Open-source Contributions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### three.js
+- https://github.com/mrdoob/three.js/pull/32329 — Add float packing / unpacking intrinsics to TSL
+- https://github.com/mrdoob/three.js/pull/32300 — Support struct definitions / declarations in TSL Transpiler
+- https://github.com/mrdoob/three.js/pull/32272 — Fix invalid code generation in TSLTranspiler
+
+## Graphics Projects
+
+### 3D Cyclic Cellular Automata
+A real-time 3D cyclic cellular automata simulation implemented with WebGPU compute shaders.
+
+[CCA..webm](https://github.com/user-attachments/assets/17c2f292-b14a-42c1-8230-da49f015c98e)
+
+#### Optimizations
+- Uses a **(8, 4, 2)** 3D workgroup size to maximize cache-coherent reads along the X axis
+- Bitpacks cell states to signifcantly reduce overall memory bandwidth
+- Assigns multiple cellular automata states to a single GPU thread, improve memory re-use and ALU usage
+- Rendered by rasterizing a bounding box and performing per-pixel DDA voxel traversal along the view ray
