@@ -37,5 +37,5 @@ Live Demo: https://simd-ray-tracer.netlify.app/
 
 #### Key Features
 - Compiles to WASM and x64, supporting WebAssembly SIMD, SSE2, and AVX2
-- Data is compacted into array of struct of arrays, ensuring compatibility with SIMD and cache locality
+- Data is layed out in an array of struct of arrays, ensuring good cache locality and compatibility with SIMD
 - Supports matte, specular, and fresnel materials
