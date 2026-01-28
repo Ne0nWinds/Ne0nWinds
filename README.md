@@ -29,7 +29,7 @@ A real-time 3D cyclic cellular automata simulation implemented with WebGPU compu
 
 ### [SIMD Ray Tracer](https://github.com/Ne0nWinds/SIMD-Ray-Tracer)
 
-A basic, brute-force ray tracer, optimized with SIMD and multi-threading
+A brute-force ray tracer, optimized with SIMD and multi-threading
 
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/eba493e4-0657-4ba2-be30-56c2f13e87a4" />
 
