@@ -13,12 +13,17 @@ C/C++ engineer focused on real-time graphics, performance, and systems-level wor
 ## Graphics Projects
 
 ### 3D Cyclic Cellular Automata
+
 A real-time 3D cyclic cellular automata simulation implemented with WebGPU compute shaders.
 
-[CCA..webm](https://github.com/user-attachments/assets/17c2f292-b14a-42c1-8230-da49f015c98e)
+![ezgif com-video-to-webp-converter-5](https://github.com/user-attachments/assets/93320e16-a6bf-4a34-ab4d-e41893b28143)
+![output](https://github.com/user-attachments/assets/eb97a1dc-a582-4c94-b6ff-41d1137798bd)
+
 
 #### Optimizations
 - Uses a **(8, 4, 2)** 3D workgroup size to maximize cache-coherent reads along the X axis
 - Bitpacks cell states to signifcantly reduce overall memory bandwidth
 - Assigns multiple cellular automata states to a single GPU thread, improve memory re-use and ALU usage
 - Rendered by rasterizing a bounding box and performing per-pixel DDA voxel traversal along the view ray
+
+
