@@ -10,11 +10,11 @@ C/C++ engineer focused on real-time graphics, performance, and systems-level wor
 - https://github.com/mrdoob/three.js/pull/32300 — Support struct definitions / declarations in TSL Transpiler
 - https://github.com/mrdoob/three.js/pull/32272 — Fix invalid code generation in TSLTranspiler
 
-## Graphics Projects
+## Projects
 
-### 3D Cyclic Cellular Automata
+### [3D Cyclic Cellular Automata](https://github.com/Ne0nWinds/3D-Cyclic-Cellular-Automata)
 
-A real-time 3D cyclic cellular automata simulation implemented with WebGPU compute shaders.
+A real-time 3D cyclic cellular automata simulation implemented with WebGPU compute shaders
 
 ![ezgif com-video-to-webp-converter-5](https://github.com/user-attachments/assets/93320e16-a6bf-4a34-ab4d-e41893b28143)
 ![output](https://github.com/user-attachments/assets/eb97a1dc-a582-4c94-b6ff-41d1137798bd)
@@ -27,3 +27,15 @@ A real-time 3D cyclic cellular automata simulation implemented with WebGPU compu
 - Rendered by rasterizing a bounding box and performing per-pixel DDA voxel traversal along the view ray
 
 
+### [SIMD Ray Tracer](https://github.com/Ne0nWinds/SIMD-Ray-Tracer)
+
+A basic, brute-force ray tracer, optimized with SIMD and multi-threading
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/eba493e4-0657-4ba2-be30-56c2f13e87a4" />
+
+Live Demo: https://simd-ray-tracer.netlify.app/
+
+#### Key Features
+- Compiles to WASM and x64, supporting WebAssembly SIMD, SSE2, and AVX2
+- Data is compacted into array of struct of arrays, ensuring compatibility with SIMD and cache locality
+- Supports matte, specular, and fresnel materials
