@@ -23,7 +23,7 @@ A real-time 3D cyclic cellular automata simulation implemented with WebGPU compu
 #### Optimizations
 - Uses a **(8, 4, 2)** 3D workgroup size to maximize cache-coherent reads along the X axis
 - Bitpacks cell states to signifcantly reduce overall memory bandwidth
-- Assigns multiple cellular automata states to a single GPU thread, improve memory re-use and ALU usage
+- Assigns multiple cellular automata states to a single GPU thread, improving memory re-use and ALU usage
 - Rendered by rasterizing a bounding box and performing per-pixel DDA voxel traversal along the view ray
 
 
