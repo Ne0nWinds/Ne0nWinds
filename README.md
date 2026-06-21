@@ -1,8 +1,6 @@
 # Hello, I'm Caden Parker
 C/C++ engineer focused on real-time graphics, performance, and systems-level work.
 
----
-
 ## Projects
 
 ### [3D Cyclic Cellular Automata](https://github.com/Ne0nWinds/3D-Cyclic-Cellular-Automata)
