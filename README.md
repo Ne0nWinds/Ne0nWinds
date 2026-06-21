@@ -3,13 +3,6 @@ C/C++ engineer focused on real-time graphics, performance, and systems-level wor
 
 ---
 
-## Open-source Contributions
-
-### three.js
-- https://github.com/mrdoob/three.js/pull/32329 — Add float packing / unpacking intrinsics to TSL
-- https://github.com/mrdoob/three.js/pull/32300 — Support struct definitions / declarations in TSL Transpiler
-- https://github.com/mrdoob/three.js/pull/32272 — Fix invalid code generation in TSLTranspiler
-
 ## Projects
 
 ### [3D Cyclic Cellular Automata](https://github.com/Ne0nWinds/3D-Cyclic-Cellular-Automata)
